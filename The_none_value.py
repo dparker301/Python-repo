@@ -1,0 +1,33 @@
+print('hello')
+
+length = len('hello')
+
+number = input('what is the number?')
+
+print_return = print('Hello world')
+print(print_return)
+
+
+x = None
+
+if x:
+    print("None is True")
+elif x is False:
+    print ("None is False")
+else:
+    print("None is not True, or False, None is just None") 
+    
+    
+# None is a value returned implicitly by functions that don't return anything meaningful.   
+x = None
+if x is None:
+    print('yes')
+if x == None:
+    print('it does')
+    
+    
+def greet():
+    print('hello!')
+
+x = greet()
+print(x)
